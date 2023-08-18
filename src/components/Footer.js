@@ -1,4 +1,3 @@
-import hr from '../assets/curve-hr.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { MdCall, MdEmail } from "react-icons/md";
@@ -34,7 +33,6 @@ export default function Footer() {
         </ul>
       </div>
 
-      <img src={hr} className="mb-8 mt-4 w-full md:h-1 text-white bottom-0" alt="hr" />
 
       <p className="text-sm font-light text-center">Copyright © 2023 All rights reserved</p>
 
